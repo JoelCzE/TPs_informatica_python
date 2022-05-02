@@ -5,10 +5,12 @@ from time import sleep, time
 
 system("cls")
 
+#Declaracion de variables y funciones
 
 
 rta= "si"
 while rta != "no":
+    #Programa principal
     
 
     rta= 0
