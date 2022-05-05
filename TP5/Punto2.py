@@ -6,12 +6,22 @@ from time import sleep
 system("cls")
 
 #Declaracion de variables y funciones
-
+def multiplo (a):
+    if a % 10 == 0:
+        return a
+    else:
+        while a % 10 != 0:
+            a -= 1
+        return a
 
 rta= "si"
 while rta != "no":
     #Programa principal
-    
+    num=0
+    while num < 10:
+        num= int (input("Ingrese un numero: "))
+
+    print(multiplo(num))
 
     rta= 0
     while rta != "no" and rta != "si":
